@@ -1,0 +1,31 @@
+{
+  "name": "graph-challenges-scenario-a",
+  "version": "1.0.0",
+  "description": "Solutions to scenario A",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtbspace/Graph-challenges-Scenario-A.git"
+  },
+  "author": "James Coyne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtbspace/Graph-challenges-Scenario-A/issues"
+  },
+  "homepage": "https://github.com/mtbspace/Graph-challenges-Scenario-A#readme",
+  "dependencies": {
+    "node-dijkstra": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
