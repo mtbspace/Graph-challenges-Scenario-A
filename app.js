@@ -1,8 +1,9 @@
-// npm package to calculate shortest distance (question 5)
-const Graph = require('node-dijkstra');
+const Graph = require('node-dijkstra'); // npm package to calculate shortest distance (question 5)
+const fs = require('fs');
 
-// raw input for OnTrack Retail's scenario A
-const input = ["AB5", "BC4", "CD8", "DC8", "DE6", "AD5", "CE2", "EB3", "AE7"];
+// load raw input for OnTrack Retail's scenario A
+const rawInput = fs.readFileSync('./rawInput.txt');
+const input = JSON.parse(rawInput);
 
 // create 'map' from unique starting nodes (stations)
 const map = {};
